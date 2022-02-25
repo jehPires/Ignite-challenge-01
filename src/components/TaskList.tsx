@@ -19,7 +19,7 @@ export function TaskList() {
     if(!newTaskTitle) return;
 
     const newTask ={
-      id: Math.random(),
+      id: Math.random(), //so questao de didática; nao usar profissionalmente
       title:newTaskTitle,
       isComplete: false,
     }
